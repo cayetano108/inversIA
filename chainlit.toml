@@ -1,0 +1,21 @@
+# chainlit.toml
+[project]
+name = "InversIA"
+description = "Asistente de inversión con RAG + agentes"
+language = "es"
+public = true
+
+[UI]
+# Colores oscuros en línea con tu tema
+name = "InversIA"
+default_theme = "dark"
+show_latency = true
+hide_cot = true
+logo = "public/favicon.png"
+favicon = "public/favicon.png"
+
+[features]
+multi_modal = false
+
+[meta]
+enable_telemetry = false

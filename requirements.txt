@@ -1,0 +1,28 @@
+# ── Interfaz ──
+chainlit>=2.0.0,<3.0.0
+
+# ── Entorno y configuración ──
+python-dotenv>=1.0.0
+
+# ── Validación de datos ──
+pydantic>=2.7,<3.0
+
+# ── LangChain stack ──
+langchain>=0.3.0,<0.4
+langchain-community>=0.3.0,<0.4
+langchain-core>=0.3.0,<0.4
+langchain-deepseek>=0.1.0
+langchain-openai>=0.3.0
+langchain-google-genai>=2.0.0
+langchain-text-splitters>=0.3.0
+langgraph>=0.4.0
+
+# ── Vectorstore + tokenización ──
+faiss-cpu>=1.7.4
+tiktoken>=0.7.0
+
+# ── Búsqueda web ──
+tavily-python>=0.3.0
+
+# ── Datos de mercado (tool calling) ──
+yfinance>=0.2.40
