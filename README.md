@@ -1,11 +1,3 @@
----
-title: InversIA
-emoji: 📈
-colorFrom: green
-colorTo: blue
-sdk: docker
-pinned: false
----
 
 # 📈 inversIA – Asistente de Educación Financiera basado en RAG
 
